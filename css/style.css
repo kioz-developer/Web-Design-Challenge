@@ -1,42 +1,45 @@
-
+/* Set light gray background color */
 body {
 	background-color: #eee;
 }
 
+/* Set max width to plot image */
 .plot-img{
 	width: 100%;
 	max-width: 600px;
 }
 
-.use-all-with {
-	width: 100%;
-}
-
-/* On screens that are 992px or less, increase the zoom */
+/* On screens that are 1000px or less */
 @media screen and (max-width: 1000px) {
+	/* increase the zoom */
 	body {
 		zoom: 2.4;
 	}
 
-	.data-zoom-out {
-		zoom: 0.5;
-	}
-
+	/* apply new line */
 	.custom-break {
 		display: inline;
 	}
 
+	/* zoom out the data table */
+	.data-zoom-out {
+		zoom: 0.5;
+	}
+
+	/* Hide long datatable headlines */
 	.txt-long{
 		display: none;
 	}
 }
 
-/* On screens that are 993px or more, increase the zoom */
+/* On screens that are 1001px or more */
 @media screen and (min-width: 1001px) {
+	/* Align paragraph image to left */
 	.img-in-para {
 		float: left;
 	}
 
+	/* Hide short datatable headlines */
 	.txt-short {
 		display: none;
 	}
