@@ -17,10 +17,10 @@
 	    <ul class="navbar-nav">
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Plots <span class="sr-only">(current)</span>
+	          Plots</span>
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="temperature.html">Max Temperature</a>
+				<a class="dropdown-item" href="temperature.html">Max Temperature <span class="sr-only">(current)</a>
 				<a class="dropdown-item" href="humidity.html">Humidity</a>
 				<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 				<a class="dropdown-item" href="wind.html">Wind Speed</a>
@@ -41,29 +41,43 @@
 	<div class="container" style="background-color: #fff;">
 		<br>
 		<div class="row">
-			<div class="col-sm-8">
-				<h4 class="text-primary"><strong>What data weather says about the earth</strong></h4>
+			<div class="col-sm-12">
+				<h4 class="text-primary"><strong>Max Temperature</strong></h4>
 				<hr>
-				<img src="images/TemperatureInWorldCities.png" width="400" style="float: left;" />
-				<p><br>The goal of this page is show how the temperature change depending of the near with the ecuator, in order to analyze the weather data I use pandas and matplotlib to cross <strong>latitude</strong> and <strong>max temperature</strong> of cities </p>
+				<div class="text-center">
+					<img src="images/TemperatureInWorldCities.png" class="plot-img" />
+				</div>
+				<div class="clearfix hidden-xs hidden-sm"> </div>
+				<p>
+					While there's a strong correlation between latitude and southern hemisphere max temperature, today in the northern hemisphere there's a very strong correlation between latitude and max temperature.
+					It could be a result of earth inclination, whereas in the northern hemisphere it's spring because we get more sunlight during the day, in the southern hemisphere it's autumn.
+				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-12">
 				<h4 class="text-primary"><strong>Visualizations</strong></h4>
 				<hr>
-				<p class="text-center">
-					<a href="temperature.html">
-						<img src="images/TemperatureInWorldCities.png" width="170"/>
-					</a>
-					<a href="humidity.html">
-						<img src="images/HumidityInWorldCities.png" width="170" />
-					</a>
-					<a href="cloudiness.html">
-						<img src="images/CloudinessPerInWorldCities.png" width="170" />
-					</a>
-					<a href="wind.html">
-						<img src="images/WindSpeedInWorldCities.png" width="170" />
-					</a>
-				</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-3">
+				<a href="temperature.html">
+					<img src="images/TemperatureInWorldCities.png" width="100%"/>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="humidity.html">
+					<img src="images/HumidityInWorldCities.png" width="100%" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="cloudiness.html">
+					<img src="images/CloudinessPerInWorldCities.png" width="100%" />
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="wind.html">
+					<img src="images/WindSpeedInWorldCities.png" width="100%" />
+				</a>
 			</div>
 		</div>
 		<br>
