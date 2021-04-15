@@ -37,31 +37,32 @@
 	</nav>
 
 	<br>
+	<div id="test"></div>
 
-	<div class="container" style="background-color: #fff;">
+	<div class="container bg-white">
 		<br>
-		<div class="row">
-			<div class="col-sm-8">
-				<h4 class="text-primary"><strong>What data weather says about the earth</strong></h4>
+		<div class="row use-all-with">
+			<div class="col-lg-8">
+				<h4 class="text-primary"><strong>Summary: Latitude vs Weather</strong></h4>
 				<hr>
-				<img src="images/TemperatureInWorldCities.png" width="400" style="float: left;" />
+				<img src="images/TemperatureInWorldCities.png" width="400" class="img-in-para" />
 				<p><br>The goal of this page is show how the temperature change depending of the near with the ecuator, in order to analyze the weather data I use pandas and matplotlib to cross <strong>latitude</strong> and <strong>max temperature</strong> of cities </p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<h4 class="text-primary"><strong>Visualizations</strong></h4>
 				<hr>
 				<p class="text-center">
 					<a href="temperature.html">
-						<img src="images/TemperatureInWorldCities.png" width="170"/>
+						<img src="images/TemperatureInWorldCities.png" width="160"/>
 					</a>
 					<a href="humidity.html">
-						<img src="images/HumidityInWorldCities.png" width="170" />
+						<img src="images/HumidityInWorldCities.png" width="160" />
 					</a>
 					<a href="cloudiness.html">
-						<img src="images/CloudinessPerInWorldCities.png" width="170" />
+						<img src="images/CloudinessPerInWorldCities.png" width="160" />
 					</a>
 					<a href="wind.html">
-						<img src="images/WindSpeedInWorldCities.png" width="170" />
+						<img src="images/WindSpeedInWorldCities.png" width="160" />
 					</a>
 				</p>
 			</div>
@@ -71,5 +72,8 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script>
+		document.getElementById('test').innerHTML = window.innerWidth;
+	</script>
 </body>
 </html>

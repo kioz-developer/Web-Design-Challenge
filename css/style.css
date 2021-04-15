@@ -7,3 +7,37 @@ body {
 	width: 100%;
 	max-width: 600px;
 }
+
+.use-all-with {
+	width: 100%;
+}
+
+/* On screens that are 992px or less, increase the zoom */
+@media screen and (max-width: 1000px) {
+	body {
+		zoom: 2.4;
+	}
+
+	.data-zoom-out {
+		zoom: 0.5;
+	}
+
+	.custom-break {
+		display: inline;
+	}
+
+	.txt-long{
+		display: none;
+	}
+}
+
+/* On screens that are 993px or more, increase the zoom */
+@media screen and (min-width: 1001px) {
+	.img-in-para {
+		float: left;
+	}
+
+	.txt-short {
+		display: none;
+	}
+}
