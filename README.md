@@ -1,24 +1,22 @@
-# Web Visualization Dashboard (Latitude)
+## Web Visualization Dashboard (Latitude vs Weather)
 
-## Latitude - Latitude Analysis Dashboard with Attitude
+For this dashboard was needed to analyze the correlation between Latitude and Weather, for each plot a web page was created and linked in a common menu where we can navigate between them. These pages will contain the visualizations and their corresponding explanations. Furthermore in the landing page you can see a comparison of all of the plots or look at data page where you can view the data used to build them.
 
-In building this dashboard, was created individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
-
-### Screenshots
+## Screenshots
 
 This section contains screenshots of landing page on each device.
 
-#### Laptop
+### Laptop
 
 ![Landing page large screen](images/screenshots/laptop.jpg)
 
 
-#### Tablet
+### Tablet
 
 ![Landing page medium screen](images/screenshots/tablet.jpg)
 
 
-#### Cell phone
+### Cell phone
 
 ![Landing page small screen](images/screenshots/cellphone.jpg)
 
